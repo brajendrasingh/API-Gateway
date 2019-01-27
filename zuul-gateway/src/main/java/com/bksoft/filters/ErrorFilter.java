@@ -26,7 +26,7 @@ public class ErrorFilter extends ZuulFilter {
 	@Override
 	public String filterType() {
 		// TODO Auto-generated method stub
-		return null;
+		return "error";
 	}
 
 }
